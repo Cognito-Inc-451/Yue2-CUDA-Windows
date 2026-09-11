@@ -1,10 +1,11 @@
 # YuE2-3B Music Generator
 
 [m-a-p/YuE2-3B](https://huggingface.co/m-a-p/YuE2-3B)
+
 Local, patched build of Gradio app by [mrfakename](https://huggingface.co/spaces/mrfakename/yue2-3b)
-- Generates a full song (style + lyrics → audio) on a single GPU.
 
 **Hardware tested:** RTX 4090 24 GB, Windows, CUDA 13.1 driver (WDDM)
+
 **Result:** ~90–110s per song (down from ~715s before the fixes below)
 
 ---
@@ -19,7 +20,7 @@ cd Yue2-CUDA-Windows
 ```
 
 `setup.ps1` creates the venv, installs CUDA torch first, installs the
-requirements, and applies the patches — the same steps as the Quick start above.
+requirements, and applies the patches.
 
 ## Manual Setup
 
@@ -229,5 +230,3 @@ anyone can rebuild the environment in a minute.
 - The `[DIAG-MEM]` / `[DIAG-AR]` / `[DIAG-NAR]` prints in the patched
   `yue2` files are optional diagnostics — they show per-phase memory and
   attention timing.
-
-### Qwen3.8-27B
