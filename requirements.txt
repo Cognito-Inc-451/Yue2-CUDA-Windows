@@ -1,0 +1,22 @@
+# YuE2-3B local dependencies (Windows, RTX 4090)
+#
+# torch/torchaudio come from the cu128 index (the default PyPI build is CPU-only
+# on Windows). --extra-index-url keeps PyPI for everything else.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.10.0+cu128
+torchaudio==2.10.0+cu128
+
+# Core model package (pins transformers==4.57.6)
+https://huggingface.co/m-a-p/YuE2-3B/resolve/main/yue2_infer-0.1.5-py3-none-any.whl
+transformers==4.57.6
+
+# UI (not listed in the upstream Space requirements)
+gradio==6.17.3
+spaces==0.51.3
+
+# Audio / analysis
+scipy==1.13.1
+mir_eval==0.8.2
+pretty_midi==0.2.10
+mido==1.3.3
+setuptools==78.1.1

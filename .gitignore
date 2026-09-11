@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environment (do NOT commit — it's platform-specific and large)
+.venv/
+venv/
+env/
+
+# Generated output (timestamped song folders)
+output/
+
+# Local logs / scratch
+*.log
+*.tmp
+*.wav
+*.mp3
+*.flac
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
