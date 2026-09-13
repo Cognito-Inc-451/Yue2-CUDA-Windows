@@ -1,8 +1,11 @@
 # YuE2-3B Music Generator
 
 YuE2 is an open music generation model with frontier song quality competitive with Suno v5/v6. Turn lyrics and a style prompt into a complete song with vocals and accompaniment, then shape its melody and chords through an editable score. [m-a-p/YuE2-3B](https://huggingface.co/m-a-p/YuE2-3B)
+<img width="900" height="388" alt="image" src="https://github.com/user-attachments/assets/f418ba67-0b4d-4db1-a2a1-011fec98cbb6" />
+<img width="294" height="360" alt="image" src="https://github.com/user-attachments/assets/db5e9722-2770-41f0-b519-eed833be7ea1" />
 
 Local, patched build of Gradio app by [mrfakename](https://huggingface.co/spaces/mrfakename/yue2-3b)
+<img width="680" height="635" alt="image" src="https://github.com/user-attachments/assets/9f87dcd1-8b62-47e7-8784-3f1f6829c882" />
 
 **Hardware tested:** RTX 4090 24 GB, Windows, CUDA 13.1 driver (WDDM)
 
